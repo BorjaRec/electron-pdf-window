@@ -1,4 +1,4 @@
-# electron-pdf-window
+# gr-pdf-window
 
 view PDF files in electron browser windows. this module adds support for viewing
 PDF files in electron [`BrowserWindow`s](http://electron.atom.io/docs/api/browser-window/).
@@ -28,7 +28,7 @@ app.on('ready', () => {
 ## install
 
 ```
-$ npm i electron-pdf-window
+$ npm i gr-pdf-window
 ```
 
 ## usage

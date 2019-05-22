@@ -1,7 +1,7 @@
 {
   "name": "gr-pdf-window",
   "version": "1.0.12",
-  "description": "view PDF files in electron browser windows",
+  "description": "visualizador de PDF. Fork de https://github.com/gerhardberger/electron-pdf-window.git",
   "main": "index.js",
   "scripts": {
     "test": "electron test",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gerhardberger/electron-pdf-window.git"
+    "url": "git://github.com/BorjaRec/gr-pdf-window.git"
   },
   "dependencies": {
     "deep-extend": "^0.4.1",
