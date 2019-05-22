@@ -1,5 +1,5 @@
 {
-  "name": "electron-pdf-window",
+  "name": "gr-pdf-window",
   "version": "1.0.12",
   "description": "view PDF files in electron browser windows",
   "main": "index.js",
@@ -27,6 +27,9 @@
   "devDependencies": {
     "standard": "^8.6.0"
   },
-  "author": "@gellerthegyi",
-  "license": "MIT"
+  "author": {
+    "name": "G.R. Informatica",
+    "email": "borja.fernandez@recalvi.es",
+    "url": "http://www.grinformatica.es/"
+  }
 }
