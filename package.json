@@ -1,6 +1,6 @@
 {
   "name": "gr-pdf-window",
-  "version": "1.0.12",
+  "version": "1.1.12",
   "description": "visualizador de PDF. Fork de https://github.com/gerhardberger/electron-pdf-window.git",
   "main": "index.js",
   "scripts": {
