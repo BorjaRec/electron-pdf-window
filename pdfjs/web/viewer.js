@@ -7145,6 +7145,7 @@ var pdfjsWebLibs;
                   var js = javaScript[i];
                   if (js && regex.test(js)) {
                     setTimeout(function () {
+                      console.log('estoy 2');
                       window.print();
                     });
                     return;
@@ -7809,6 +7810,7 @@ var pdfjsWebLibs;
         document.getElementById(openFileInputName).click();
       }
       function webViewerPrint() {
+        console.log('estoy 4');
         window.print();
       }
       function webViewerDownload() {
@@ -8424,6 +8426,7 @@ var pdfjsWebLibs;
         // Also intercept Cmd/Ctrl + Shift + P in Chrome and Opera
         if (event.keyCode === 80 && /*P*/
           (event.ctrlKey || event.metaKey) && !event.altKey && (!event.shiftKey || window.chrome || window.opera)) {
+          console.log('estoy 1');
           window.print();
           if (hasAttachEvent) {
             // Only attachEvent can cancel Ctrl + P dialog in IE <=10
